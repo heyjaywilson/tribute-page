@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tribute for Steve Jobs</title>
     <script type="text/javascript" src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
     <link rel="stylesheet" href="/css/master.css">
@@ -10,31 +11,33 @@
 
 <body>
     <header>
-        <h1>Steve Jobs</h1>
+        <h1 id = "title">Steve Jobs</h1>
         <p class="description">Co-founder of Apple</p>
     </header>
-    <section class="image">
-        <img src="" alt="Picture of Steve Jobs">
-        <caption>Steve Jobs with Apple Computer</caption>
-    </section>
-    <section class="timeline">
-        <h1>Highlights in Steve Job's Life</h1>
-        <ul>
-            <li><strong>YEAR:</strong> Description</li>
-            <li><strong>YEAR:</strong> Description</li>
-            <li><strong>YEAR:</strong> Description</li>
-            <li><strong>YEAR:</strong> Description</li>
-            <li><strong>YEAR:</strong> Description</li>
-            <li><strong>YEAR:</strong> Description</li>
-            <li><strong>YEAR:</strong> Description</li>
-            <li><strong>YEAR:</strong> Description</li>
-            <li><strong>YEAR:</strong> Description</li>
-            <li><strong>YEAR:</strong> Description</li>
-        </ul>
-    </section>
-    <section>
-        <p>To read more about Steve Jobs you can read his <a href="#">Wikipedia entry</a>, or you can buy one of his many biographies on <a href="#">Amazon.com</a>.</p>
-    </section>
+    <main class="container" id="main">
+        <section class="image" id="img-div">
+            <img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/140121180813-steve-jobs-1984-restricted-horizontal-large-gallery.jpg" alt="Picture of Steve Jobs" id = "image">
+            <p class="description" id="img-caption">Steve Jobs with Macs</p>
+        </section>
+        <section class="timeline" id="tribute-info">
+            <h1>Highlights in Steve Job's Life</h1>
+            <ul>
+                <li><strong>YEAR:</strong> Description</li>
+                <li><strong>YEAR:</strong> Description</li>
+                <li><strong>YEAR:</strong> Description</li>
+                <li><strong>YEAR:</strong> Description</li>
+                <li><strong>YEAR:</strong> Description</li>
+                <li><strong>YEAR:</strong> Description</li>
+                <li><strong>YEAR:</strong> Description</li>
+                <li><strong>YEAR:</strong> Description</li>
+                <li><strong>YEAR:</strong> Description</li>
+                <li><strong>YEAR:</strong> Description</li>
+            </ul>
+        </section>
+        <section class="links">
+            <p>To read more about Steve Jobs you can read his <a href="#" id="tribute-link" target="_blank">Wikipedia entry</a>, or you can buy one of his many biographies on <a href="#">Amazon.com</a>.</p>
+        </section>
+    </main>
 </body>
 
 </html>
